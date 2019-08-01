@@ -1,0 +1,253 @@
+@media ( min-width: 320px ){
+	header{
+		
+	}
+
+	.container{
+		width: auto;
+	}
+
+
+	.promices{
+		/*display: none;*/
+	}
+}
+
+@media ( min-width: 410px ){
+	.top_head_wrap{
+		align-items: flex-end;
+	}
+}
+
+@media ( min-width: 700px ){
+	header{
+		padding-top: 92px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.container{
+		width: auto;
+	}
+
+	.top_head_wrap{
+		padding: 0;
+		align-items: flex-end;
+	}
+
+	.promices{
+		top: -73px;
+    	left: -44px;
+	}
+
+	.link-circle{
+		display: block;
+	}
+}
+
+
+@media ( min-width: 1140px ){
+	header{
+		padding-top: 92px;
+		background-size: 100% 411px;
+		padding: 92px 0 410px 0;
+
+	}
+
+	.container{
+		width: 1140px;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.top_head_wrap{
+		padding: 0;
+		align-items: flex-end;
+	}
+
+	.promices{
+		top: -73px;
+    	left: -44px;
+	}
+
+	.header_content::before{
+		display: block;
+	}
+
+	.header_content::after{
+		display: block;
+	}
+
+	.header_content__title{
+		font-size: 38px;
+	}
+
+	.header_names{
+		flex-direction: row;
+	}
+
+	.header_names_left{
+		text-align: right;
+		width: 50%;
+		padding-right: 85px;
+		width: 50%;
+	}
+
+	.header_names_button{
+		margin-bottom: 61px;
+		position: absolute;
+		margin-top: 0;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.header_names_right{
+		text-align:left;
+		width: 50%;
+		padding-left: 85px;
+	}
+
+	.header_scroll{
+		width: 100%;
+	}
+
+	.scroll__desc{
+		margin-bottom: 16px;
+	}
+
+	.link-circle{
+
+	}
+
+	#further-information{
+		background-image: url(../img/man&girl.png);
+		background-repeat: no-repeat;
+		background-position: left 80px;
+		padding-top: 105px;
+		padding-bottom: 65px;
+	}
+
+	.further-information-content{
+		margin-left: auto;
+		width: 555px;
+	}
+
+	.further-information__title{
+		text-align: left;
+		font-size: 30px;
+	}
+
+	.further-information__list{
+		margin-bottom: 63px;
+		margin-top: 38px;
+	}
+
+	.further-information__text{
+		text-align: left;
+	}
+
+	.form{
+		text-align: left;
+	}
+
+	.form-input{
+		margin-right: 25px;
+		width: 293px;
+	}
+
+	.submit{
+		width: 216px;
+		/*margin-right: 27px;*/
+		margin: 0 27px 0 0;
+	}
+
+	.space-between{
+		flex-direction: row;
+	}
+
+	#about-OathJar{
+		padding-top: 65px;
+}
+
+	.OathJar-cards{
+		width: 490px;
+		display: flex;
+		order: 1;
+	}
+
+	.cards-1-column{
+		display: flex;
+    	flex-direction: column;
+	}
+
+	.cards-2-column{
+		display: flex;
+		align-items: center;
+		margin-left: 85px;
+	}
+
+	.OathJar-content{
+		order: 2;
+		width: 555px;
+		margin-bottom: 56px;
+	}
+
+	.OathJar-title{
+		margin-top: 0;
+		margin-bottom: 72px;
+	}
+
+	.card{
+		margin-bottom: 61px;
+	}
+
+	.toggle-wrap{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.toggle , .toggle a{
+		margin-right: 20px;
+		margin-bottom: 92px;
+	}
+
+	footer{
+		padding-top: 55px;
+		padding-bottom: 123px;
+	}
+
+	.footer-wrap{
+		justify-content: space-between;
+		align-items: flex-end;
+		flex-direction: row;
+	}
+
+	.logo-block{
+		display: flex;
+		align-items: flex-end;
+		flex-direction: row;
+		margin: 0 ;
+	}
+
+	.logo-block__copy{
+		margin-left: 17px;
+	}
+
+	.menu-block{
+		margin-top: 0;
+	}
+
+	.footer-menu{
+		display: flex;
+		list-style-type: none;
+	    flex-direction: row;
+	    text-align: left;
+	}
+
+	.footer-menu li{
+		margin-right: 30px;
+	}
+
+	
+}
